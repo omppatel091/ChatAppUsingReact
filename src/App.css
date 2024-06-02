@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+input.form-control,
+input.form-control:focus {
+  background: #f0f0ff;
+}
+.btn:focus {
+  border: none;
+  outline: none;
+}
+.error {
+  position: absolute;
+  color: red;
+  font-size: 0.7rem;
+}
+.big {
+  position: absolute;
+  color: red;
+  font-size: 0.9rem;
+}
+.radio {
+  cursor: pointer;
+}
+.gradient-custom {
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #654ea3,
+    #eaafc8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #654ea3,
+    #eaafc8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.i {
+  margin-left: -28px;
+  color: #654ea3;
+  cursor: pointer;
+}
+.i:hover {
+  color: #6c63ff;
+  background-position: 100% 0%;
+  opacity: 70%;
+}
+
+.pass {
+  display: flex;
+  align-items: baseline;
+}
+
+.mt-n2 {
+  margin-top: -0.9rem;
+}
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.custom-tb {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+.custom-tb:focus {
+  border-bottom: 3px solid #6c63ff;
+}
+
+.scroll {
+  overflow-y: auto;
+}
